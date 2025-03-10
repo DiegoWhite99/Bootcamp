@@ -1,0 +1,17 @@
+#contenedor1 {
+    background: blue;
+    height: 300px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.art{
+    height: 250px;
+    width: 30%;
+    background: red;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

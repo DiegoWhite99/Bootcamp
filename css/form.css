@@ -1,0 +1,20 @@
+fieldset {
+    background-color: rgb(226, 220, 233);
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+#contenedor1frm {
+    background: 0;
+}
+#contenedor1frm label {
+    display: block;
+}
+#contenedor1frm input{
+    width: 98%;
+    height: 30px;
+    text-align: center;
+    border: 0;
+    border-bottom: 3px solid red;
+    background: transparent;
+}

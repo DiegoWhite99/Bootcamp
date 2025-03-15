@@ -1,5 +1,5 @@
 fieldset {
-    background-color: rgb(226, 220, 233);
+    background-color: rgb(15, 97, 190);
     width: 40%;
     margin: auto;
     padding: 10px;
@@ -17,4 +17,18 @@ fieldset {
     border: 0;
     border-bottom: 3px solid red;
     background: transparent;
+}
+
+.radios {
+    background: 0;
+    margin-top: 5px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#radios{
+    margin: top 20px; ;
 }

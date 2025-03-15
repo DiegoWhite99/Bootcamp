@@ -1,77 +1,79 @@
 <!DOCTYPE html>
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peluditos</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/hader.css">
-    <link rel="stylesheet" href="/css/form.css">
+    <title>Document</title>
 </head>
+<header id="header" class="header">
+    <div id="logotitulo" class="logoti">
+        <h1>Peludos</h1>
+        <link rel="stylesheet" href="/css/reset.css">
+        <link rel="stylesheet" href="/css/hader.css">
+        <link rel="stylesheet" href="/css/form.css">
+        <img src="/imgs/Cat-icon_30345.png" alt="Imagen de gato">
 
+    </div>
+
+    <nav>
+        <ul>  
+            
+            <li class="li"  id="li1"><a href="">Nosotros</a></li>
+            <li class="li" id="li2"><a href="#">Productos</a></li>
+            <li class="li" id="li3"><a href="#">Servicios</a></li>
+            <li class="li" id="li4"><a href="#">Contactanos</a></li>
+             
+        
+        </ul>
+    </nav>
+
+  
+</header>
+<fieldset>
+    <form action="">
+      <label for="">Documento</label>
+      <input type="number" placeholder="Documento" required>
+      <label for="">Nombre</label>
+      <input type="text" placeholder="Nombre" required>
+      <label for="">Fecha de nacimiento</label>
+      <input type="date"  required>
+      <label for="">Correo</label>
+      <input type="email" placeholder="Correo" required>
+      <label for="">Correo</label><input type="password" placeholder="Contraseña">
+      <label for="">último estudio realizado</label>
+      <label for="p">Primaria</label>
+      <input type="radio" name="er" id="p" checked>
+      <label for="b">Bachillerato</label>
+      <input type="radio" name="er" id="b">
+      <label for="t">Tecnico</label>
+      <input type="radio" name="er" id="t">
+      <label for="pr">Profesional</label>
+      <input type="radio" name="er" id="pr">
+      <label for="">Deporte favorito</label>
+      <label for="f">Fútbol</label>
+      <input type="checkbox" id="f">
+      <label for="c">Ciclismo</label>
+      <input type="checkbox" id="c">
+      <label for="bo">Boxeo</label>
+      <input type="checkbox" id="bo">
+      <label for="be">Béisbol</label>
+      <input type="checkbox" id="be">
+      <label for="">Seleccione el país de nacimiento</label>
+      <select name="" id="">
+          <option value="">Colombia</option>
+          <option value="">Ecuador</option>
+          <option value="">Venezuela</option>
+          <option value="">Perú</option>
+          
+
+      </select>
+
+      <button type="submit">Registrar</button>
+
+    </form>
+
+  </fieldset>
 <body>
-    <header id="header" class="header">
-        <div id="logotitulo" class="logoti">
-            <h1>Peluditos</h1>
-            <img src="/imgs/Cat-icon_30345.png" alt="cat">
-        </div>
-        <nav>
-            <ul>
-                <li class="li" id="li1"><a href="#">Nosotros</a></li>
-                <li class="li" id="li2"><a href="#">Productos</a></li>
-                <li class="li" id="li3"><a href="#">Servicios</a></li>
-                <li class="li" id="li4"><a href="#">Contactanos</a></li>
-            </ul>
-        </nav>
-    </header>
-    <fieldset>
-        <legend>Datos Personales</legend>
-        <form action="">
-            <div id="contenedor1frm">
-                <label for="">Documento: </label>
-                <input type="number" placeholder="Documento" required>
-                <input type="text" placeholder="Nombre" required>
-                <input type="text" placeholder="Apellido" required>
-                <label for="">Fecha de Nacimiento: </label>
-                <input type="date" required>
-                <label for="">Correo</label>
-                <input type="email" placeholder="Correo" required>
-                <input type="password" placeholder="Contrasenia" required>
-            </div>
-            
-            <label for="">Ultimos estudios realizados: </label>
-            <label for="p">Primaria</label>
-            <input type="radio" name="er" id="p" checked>
-            <label for="b">Bachillerato</label>
-            <input type="radio" name="er" id="b">
-            <label for="t">Tecnico</label>
-            <input type="radio" name="er" id="t">
-            <label for="pr">Profesional</label>
-            <input type="radio" name="er" id="pr">
-            
-            <label for="">Deporte Favorito: </label>
-            <label for="f">Futbol</label>
-            <input type="checkbox" id="f">
-            <label for="c">Ciclismo</label>
-            <input type="checkbox" id="c">
-            <label for="bo">Boxeo</label>
-            <input type="checkbox" id="bo">
-            <label for="be">Beisbol</label>
-            <input type="checkbox" id="be">
-            
-            <label for="">Seleccione el pais de origen: </label>
-            <select name="" id="">
-                <option value="">Colombia</option>
-                <option value="">Mexico</option>
-                <option value="">Argentina</option>
-                <option value="">Peru</option>
-                <option value="">Ecuador</option>
-                <option value="">Venezuela</option>
-            </select>
-            
-            <button type="submit">Registar</button>
-        </form>
-    </fieldset>
+    
 </body>
 </html>

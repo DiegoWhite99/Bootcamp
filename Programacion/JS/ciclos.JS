@@ -29,4 +29,4 @@ while(num <=20){
         }
     }
     
-    calcularPromedio();
+    calcularPromedio()

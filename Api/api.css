@@ -1,0 +1,30 @@
+#d1{
+    background-color: rgba(53, 51, 175, 0.37);
+    color: rgb(0, 87, 250);
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#d1 url {
+    text-decoration: underline;
+    color: blu;
+}
+
+#pokemon {
+    background-color: rgba(217, 216, 236, 0.911);
+    color: rgb(255, 6, 6);
+    font-family: "Barriecito", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 50%;
+}
+html {
+    background-image: url(/imgs/pokemon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

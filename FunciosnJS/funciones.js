@@ -11,7 +11,7 @@ export function sumaDos(numero1, numero2){
     alert (`el resulta es ${resultado}`)
 }*/
 
-export function calificacion (){
+/*export function calificacion (){
     let nombre_estudiante = prompt('Ingrese el nombre del estudiante: ');
     let curso = prompt('Ingrese la materia a subir la nota: ')
     let n1 = parseFloat(prompt('Ingrese la nota del primer corte: '));
@@ -31,5 +31,21 @@ export function calificacion (){
         📌 Materia: ${curso}  
         📌 Calificación Final: ${nota_final.toFixed(2)} 🎯`);
 
-}
+} */
 
+//Estacionamiento
+
+
+export function estacionamiento (){
+    let nombreVehiculo = prompt('Ingrese la placa del vehiculo: ')
+    let horasRegistro = parseInt(prompt('Ingrese el numero de horas que el vehiculo ah estado estacionado: '))
+    let cargo = horasRegistro * 1500;
+    alert(`El vehiculo con la placa ${nombreVehiculo} \n
+       Tiempo de parking: ${horasRegistro} \n
+       Total a pagar: ${cargo} `);
+    countMin(horasRegistro);
+};
+function countMin(horasRegistro) {
+    let horasMin = horasRegistro * 60;
+    alert(`El tiempo en minutos es:  ${horasMin}`);
+};

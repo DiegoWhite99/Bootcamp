@@ -7,6 +7,7 @@ def listaaleatoria():
         lista.append(numeroRandom)
 print(lista)
 
+
 def lista_aleatoria_dos(t):
     for _ in range(t):
         numero_random = random.randint(50, 100)
@@ -16,4 +17,3 @@ def lista_aleatoria_dos(t):
 tamano = int(input("Digite el tamaño de la lista: "))
 lista_aleatoria_dos(tamano)
 
-listaaleatoria()     

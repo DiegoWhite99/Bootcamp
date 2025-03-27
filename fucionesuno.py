@@ -15,5 +15,5 @@ def lista_aleatoria_dos(t):
 
 tamano = int(input("Digite el tamaño de la lista: "))
 lista_aleatoria_dos(tamano)
-6555555555
+
 listaaleatoria()    

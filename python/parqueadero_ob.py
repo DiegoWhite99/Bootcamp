@@ -9,4 +9,4 @@ class Parqueadero:
         else:
             totalPago = (self.__horas * 1500)
 
-        return totalPago
+        return totalPago 
